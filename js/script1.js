@@ -1,7 +1,7 @@
 // Configuración
 const SHEET_ID = "18SBf_CjjlFCS7nSkh7do2yExTrTvTqs8Bq-msu-sR5M";
 const SHEET_NAME = "Products";
-const WHATSAPP_NUMBER = "5217229087294";
+const WHATSAPP_NUMBER = "5217131087346";
 let allProducts = [];
 
 // URLs alternativas para probar
