@@ -1,0 +1,20 @@
+[
+    {
+        "Nombre": "Tenis Runner X1",
+        "Talla": "26",
+        "Color": "Negro",
+        "Precio": "899",
+        "PrecioOriginal": "1099",
+        "Imagen": "img/products/tenis1.jpg",
+        "Oferta": true
+    },
+    {
+        "Nombre": "Zapatos Urban Pro",
+        "Talla": "28",
+        "Color": "Blanco",
+        "Precio": "750",
+        "PrecioOriginal": "",
+        "Imagen": "img/products/tenis2.jpg",
+        "Oferta": false
+    }
+]

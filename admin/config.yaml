@@ -1,0 +1,17 @@
+backend:
+  name: git-gateway
+  branch: main # o la rama donde trabajes
+
+media_folder: "img/uploads" # Carpeta donde se guardan las imágenes
+public_folder: "/img/uploads"
+
+collections:
+  - name: "invitaciones"
+    label: "Invitaciones"
+    folder: "content/invitaciones"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Título", name: "titulo", widget: "string" }
+      - { label: "Descripción", name: "descripcion", widget: "text" }
+      - { label: "Imagen", name: "imagen", widget: "image" }
