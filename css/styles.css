@@ -204,7 +204,7 @@ nav a:hover{
   transform: rotate(-45deg) translate(7px, -6px);
 }
 
-/* ⭐ OVERLAY DEL MENÚ */
+/*  OVERLAY DEL MENÚ */
 .nav-overlay {
   position: fixed;
   top: 0;
@@ -234,7 +234,7 @@ Estilos del menú de navegación
   gap: 8px;
 }
 
-/* ⭐ RESPONSIVE - MENÚ MÓVIL COMPLETO */
+/*  RESPONSIVE - MENÚ MÓVIL COMPLETO */
 @media (max-width: 768px) {
   /* Mostrar botón hamburguesa */
   .menu-toggle {
@@ -358,6 +358,23 @@ Estilos del menú de navegación
   nav a:hover::after {
     width: 80%;
   }
+}
+
+.logo-hero {
+  height: 80px;
+}
+
+.logo-hero{
+  height: 200px;
+  width:auto;
+  filter: drop-shadow(0 0 15px rgba(202, 65, 1, 0.4)) drop-shadow(0 0 5px rgba(241, 8, 8, 0.2));
+  transition: transform .3s ease, filter .3s ease;
+  z-index: 1003;
+  flex-shrink: 0;
+}
+.logo-hero:hover{ 
+  transform: scale(2.0);
+  filter: drop-shadow(0 0 20px rgba(255, 0, 34, 0.6)) drop-shadow(0 0 8px rgba(247, 33, 18, 0.3));
 }
 
 /* HERO */
